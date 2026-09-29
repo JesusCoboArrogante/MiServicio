@@ -1,0 +1,7 @@
+﻿services:
+  miservice:
+    image: miservice
+    build:
+      context: .
+      dockerfile: MiService/Dockerfile
+
